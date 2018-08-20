@@ -7,13 +7,13 @@ from setuptools import setup, find_packages
 import sys, os
 import io
 
-version = '0.5.1'
+version = '0.5.3'
 
 # some trove classifiers:
 
 
 setup(
-    name='humanize',
+    name='lucky-humanize',
     version=version,
     description="python humanize utilities",
     long_description=io.open('README.rst', 'r', encoding="UTF-8").read(),
@@ -30,7 +30,7 @@ setup(
     author='Jason Moiron',
     author_email='jmoiron@jmoiron.net',
 
-    url='http://github.com/jmoiron/humanize',
+    url='http://github.com/luckydonald-forks/humanize',
     license='MIT',
     packages=find_packages(exclude=['ez_setup', 'examples', 'tests']),
     include_package_data=True,
